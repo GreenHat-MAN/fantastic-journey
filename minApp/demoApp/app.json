@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/message/message",
+    "pages/cart/cart"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#123456",
+    "navigationBarTitleText": "测试专用",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#f23f44",
+    "selectedColor":"#fff011",
+    "backgroundColor": "#456fffa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home_on.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "留言板",
+        "iconPath": "/images/publish.png",
+        "selectedIconPath": "/images/publish_on.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/my.png",
+        "selectedIconPath": "/images/my_on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

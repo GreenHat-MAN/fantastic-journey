@@ -1,0 +1,2 @@
+<!--pages/mine/mine.wxml-->
+<button type="primary" bindtap="toLogin">登录</button>

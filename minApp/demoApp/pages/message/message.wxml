@@ -1,0 +1,21 @@
+
+<view class="box">
+
+<view class="inp">
+  <input type="text" bindinput="getCon" name="content" value="{{content}}" placeholder="请输入内容"/>
+  <input type="text" bindinput="getName" name="name" value="{{name}}" placeholder="请输入姓名"/>
+  <button type="primary" bindtap="sendMess">发送</button>
+</view>
+
+  <view class="mess" wx:for="{{list}}" wx:key="index">
+      <text >{{item.content}}</text>
+      <text>{{item.name}}</text>
+      <text>{{item.time}}</text>
+      <button type="warn" bindtap="delCon" data-id="{{item.id}}">删除</button>
+      <button type="default" bindtap="updateCon" data-info="{{item}}">修改</button>
+  </view>
+  
+</view>
+
+
+
